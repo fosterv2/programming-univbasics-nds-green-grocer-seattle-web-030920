@@ -97,6 +97,7 @@ def apply_clearance(cart)
     end
     item_index += 1
   end
+  cart
 end
 
 def checkout(cart, coupons)
