@@ -27,17 +27,6 @@ def consolidate_cart(cart)
       new_cart[new_index][:count] = 1
       new_index += 1
     end
-    # temp_index = 0
-    # while temp_index < new_cart.length do
-    #   if cart[item_index][:item] == new_cart[temp_index][:item]
-    #     new_cart[new_index][:count] += 1
-    #   else
-    #     new_cart[new_index] = cart[item_index]
-    #     new_cart[new_index][:count] = 1
-    #     new_index += 1
-    #   end
-    #   temp_index += 1
-    # end
     item_index += 1
   end
   new_cart
